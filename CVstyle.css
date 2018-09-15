@@ -13,8 +13,9 @@ body {
 }
 
 .page {
-     background-color: rgba(255, 240, 240, 0.74);
+    background-color: rgba(255, 240, 240, 0.74);
 }
+
 header {
     border-right: 2px solid rgba(33, 98, 78, 0.2);
     border-bottom: 2px solid rgba(33, 98, 78, 0.2);
@@ -28,7 +29,8 @@ header {
     position: absolute;
     bottom: -23px;
 }
-img{
+
+img {
     width: 296px;
     opacity: 0.8;
     box-shadow: 0 5px 65px rgb(255, 255, 255);
@@ -40,22 +42,21 @@ h1,
 #slogan {
     font-weight: 80;
     text-align: center;
-    color: #21624e;  
+    color: #21624e;
 }
-
 
 h2 {
     font-weight: 100;
     padding-left: 30px;
     color: rgba(33, 98, 78, 0.76);
 }
+
 .container {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     grid-template-rows: 25% 25% 25%;
     grid-column: 1/2;
     margin: 15px auto 15px 100px;
-
 }
 
 .item-1 {
@@ -63,7 +64,6 @@ h2 {
     border-right: 2px solid rgba(33, 98, 78, 0.2);
     border-bottom: 2px solid rgba(33, 98, 78, 0.2);
     background-color: rgba(252, 253, 252, 0.85);
-    /*    grid-area: header;*/
 }
 
 .item-2 {
@@ -71,7 +71,6 @@ h2 {
     border-right: 2px solid rgba(33, 98, 78, 0.2);
     border-bottom: 2px solid rgba(33, 98, 78, 0.2);
     background-color: rgba(252, 217, 206, 0.45);
-    /*    grid-area: header;*/
 }
 
 .item-3 {
@@ -80,7 +79,6 @@ h2 {
     border-bottom: 2px solid rgba(33, 98, 78, 0.2);
     background-color: rgb(252, 215, 204);
     margin-bottom: 25px;
-    /*    grid-area: header;*/
 }
 
 a {
@@ -113,7 +111,6 @@ ul {
     color: rgba(159, 98, 67, 0.87);
 }
 
-
 footer {
     width: 100%;
     position: absolute;
@@ -123,10 +120,8 @@ footer {
     border-bottom: 2px solid rgba(33, 98, 78, 0.2);
 }
 
-
 #info {
     display: flex;
     justify-content: space-around;
     color: #21624e;
-/*    padding-top: 30px;*/
 }
