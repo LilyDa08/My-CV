@@ -1,15 +1,15 @@
 /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);*/
 
+
 body {
     margin: auto;
     font-family: sans-serif;
     font-weight: 100;
     line-height: 160%;
     width: 1000px;
-    box-shadow: 0 5px 65px rgba(255, 240, 240, 0.84);
-    background-color: rgba(253, 217, 204, 0.14);
+    box-shadow: 0 5px 65px rgba(255, 255, 255, 0.84);
+    background-color: rgb(255, 255, 255);
     box-sizing: border-box;
-    position: relative;
 }
 
 .page {
@@ -27,11 +27,14 @@ header {
 
 .image {
     position: absolute;
-    bottom: -23px;
+    left: 0;
+    padding: 0;
+    height: 260px;
+    
 }
 
 img {
-    width: 296px;
+    height: 100%;
     opacity: 0.8;
     box-shadow: 0 5px 65px rgb(255, 255, 255);
     border-top-right-radius: 5px;
@@ -53,10 +56,11 @@ h2 {
 
 .container {
     display: grid;
+    grid-gap: 15px;
     grid-template-columns: 20% 20% 20% 20%;
     grid-template-rows: 25% 25% 25%;
     grid-column: 1/2;
-    margin: 15px auto 15px 100px;
+
 }
 
 .item-1 {
@@ -78,7 +82,12 @@ h2 {
     border-right: 2px solid rgba(33, 98, 78, 0.2);
     border-bottom: 2px solid rgba(33, 98, 78, 0.2);
     background-color: rgb(252, 215, 204);
-    margin-bottom: 25px;
+
+}
+
+.cont3 {
+    padding-bottom: 15px;
+    position: relative;
 }
 
 a {
