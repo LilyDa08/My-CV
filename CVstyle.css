@@ -122,7 +122,6 @@ ul {
 
 footer {
     width: 100%;
-    position: absolute;
     height: 50px;
     background-color: rgba(156, 222, 218, 0.62);
     border-right: 2px solid rgba(33, 98, 78, 0.2);
